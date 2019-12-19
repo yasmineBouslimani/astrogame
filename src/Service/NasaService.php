@@ -42,11 +42,6 @@ class NasaService
                 'date' => date('Y-m-d', $val),
             ]
         ]);
-
             return $picture->toArray();
-
-
-
     }
-
 }

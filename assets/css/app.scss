@@ -1,9 +1,48 @@
-body {
-    background-color: lightgray;
+@import "~bootstrap/scss/bootstrap";
 
+body {
+  background-color: lightgray;
+  display : flex;
+  justify-content: center;
+  background-image: url('https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif');
+}
+
+.carte {
+  width: 250px;
+  height: 250px;
+  margin : 50px;
 }
 
 .img-1 {
-    width: 80px;
-    height: 80px;
+  width: 250px;
+  height: 250px;
+  border-radius: 6px;
+  box-shadow: 0 0 5px white;
+}
+.cards {
+  margin-top : 100px;
+  width : 1250px;
+}
+.row {
+  margin : 0;
+}
+
+.display {
+  display:block !important;
+}
+
+.carte {
+  width: 80px;
+  height: 80px;
+  background-color: #e8c380;
+  border: 2px solid black;
+  margin: 4px;
+  box-shadow: 4px 2px 5px black;
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}
+.display {
+  display:block !important;
 }

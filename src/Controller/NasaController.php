@@ -14,14 +14,20 @@ class NasaController extends AbstractController
      */
     public function index(NasaService $nasaService)
     {
-
-        $difficulty = 10;
+        $pictures = [];
+        $difficulty = 4;
 
         for ($i=0; $i<$difficulty; $i++) {
            $picture = $nasaService->getPicture();
-           $pictures[] = $picture;
-
+           if (!in_array($picture,$pictures))
+           {
+               $pictures[] = $picture;
+               $pictures[] = $picture;
+           } else {
+               $i-- ;
+           }
         }
+         shuffle($pictures);
         return $this->render('picture/index.html.twig', [
             'pictures' => $pictures,
         ]);

@@ -9,9 +9,46 @@
 
     </head>
     <body>
+    <div class="cards">
         {% block body %}{% endblock %}
+    </div>
         {% block javascripts %}
+            <script>
+                const cards = document.getElementsByClassName('carte');
+
+                let previousUrl = '';
+                let previousImg = '';
+                let count       = 0;
+                let nbClick     = 0;
+
+                for (let i = 0 ; i < cards.length ; i++) {
+                    cards[i].addEventListener('click', event => {
+                        nbClick++;
+                        let imageId = event.target.getAttribute('data-id');
+                        document.getElementById(imageId).classList.toggle('hidden');
+                        let img = event.target.children[0]
+                        let url = img.getAttribute('src');
+                        if (previousUrl != '') {
+                            if (url === previousUrl) {
+                                img.classList.add('display');
+                                previousImg.classList.add('display');
+                                count++
+                            } else {
+                                previousImg.classList.add('hidden');
+                            }
+                        }
+                        if (count === cards.length /2) {
+                            alert('Gagné en ' + nbClick + ' clicks')
+                        }
+
+                        previousUrl = img.getAttribute('src');
+                        previousImg = img;
+                    });
+                }
+
+            </script>
             {{ encore_entry_script_tags('app') }}
+
         {% endblock %}
     </body>
 </html>
