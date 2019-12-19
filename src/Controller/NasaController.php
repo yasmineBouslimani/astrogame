@@ -16,7 +16,6 @@ class NasaController extends AbstractController
     {
 
         $difficulty = 10;
-
         for ($i=0; $i<$difficulty; $i++) {
            $picture = $nasaService->getPicture();
            $pictures[] = $picture;
