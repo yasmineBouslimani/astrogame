@@ -1,8 +1,16 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
+    <div class="container">
+    {% for picture in pictures %}
+    <img src="{{ picture.url }}" class="img-1" alt="">
+    {% endfor %}
 
+<<<<<<< HEAD
     {{ dump(pictures) }}
     <img src="{{ pictures.url  }}">
 
+=======
+ </div>
+>>>>>>> 520b871af65f5a0ac61d93cf20387a2c839523d8
 {% endblock %}
