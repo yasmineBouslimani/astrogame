@@ -5,16 +5,14 @@
     <list default="true" id="0839b79e-dfc2-49f8-950e-b35a3a7380f4" name="Default Changelist" comment="" />
 =======
     <list default="true" id="0839b79e-dfc2-49f8-950e-b35a3a7380f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/navbar.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/cards.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/layout.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.yarn-integrity" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.yarn-integrity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/NasaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/NasaController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/home.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/picture/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/picture/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
 >>>>>>> f8093ad79fb5ac9c70fd80f3d36b31de46d0be4f
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,6 +26,13 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -151,7 +156,11 @@
     <property name="nodejs_package_manager_path" value="yarn" />
 =======
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../NEWDEAL/bordeaux-0919-php-newdeal" />
+<<<<<<< HEAD
 >>>>>>> f8093ad79fb5ac9c70fd80f3d36b31de46d0be4f
+=======
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+>>>>>>> c2d75e7cc1adf1ee4846d5e17b9b18e93ab59406
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
