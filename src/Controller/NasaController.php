@@ -13,7 +13,15 @@ class NasaController extends AbstractController
      */
     public function index(NasaService $nasaService)
     {
-        $nasaService->getPicture();
-        return $this->render('picture/index.html.twig', ['pictures' => $nasaService]);
+        $difficulty = 10;
+
+        for ($i=0; $i<$difficulty; $i++) {
+           $picture = $nasaService->getPicture();
+           $pictures[] = $picture;
+
+        }
+        return $this->render('picture/index.html.twig', [
+            'pictures' => $pictures,
+        ]);
     }
 }
