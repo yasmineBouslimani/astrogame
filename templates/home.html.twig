@@ -1,0 +1,22 @@
+{% block stylesheets %}
+    {{ encore_entry_link_tags('app') }}
+{% endblock %}
+<body>
+<div class="container demo">
+    <div class="content">
+        <div id="large-header" class="large-header">
+            <canvas id="demo-canvas"></canvas>
+            <h1 class="main-title"><span class="thin"><div class="sign">
+
+	<span class="sign__word">ASTROGAME</span>
+                    </div>
+            {% block body %}{% endblock %}
+        </div>
+    </div>
+</div>
+<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/TweenLite.min.js"></script>
+<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/EasePack.min.js" ></script>
+<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo.js" ></script>
+{% block javascripts %}
+    {{ encore_entry_script_tags('app') }}
+{% endblock %}
