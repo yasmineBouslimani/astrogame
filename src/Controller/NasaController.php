@@ -32,4 +32,5 @@ class NasaController extends AbstractController
             'pictures' => $pictures,
         ]);
     }
+
 }

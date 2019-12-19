@@ -1,11 +1,12 @@
 @import "~bootstrap/scss/bootstrap";
 @import url('https://fonts.googleapis.com/css?family=Bungee&display=swap');
+@import 'home.scss';
 
 body {
-  background-color: lightgray;
   display : flex;
   justify-content: center;
   background-image: url('https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif');
+  background-color: black;
 }
 
 .swal-modal {
