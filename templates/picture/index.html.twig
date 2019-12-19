@@ -1,10 +1,11 @@
 {% extends 'base.html.twig' %}
 {% block body %}
+    {% include 'navbar.html.twig' %}
     <div class="d-flex justify-content-center">
         <div class="row">
             {% for picture in pictures %}
-                <div class="col-2 carte" data-id="img1">
-                    <img src="{{ picture.url }}" class="img-1 hidden" id="img{{ loop.index }}" alt="">
+                <div class="box carte" data-id="img{{ loop.index }}">
+                    <img src="{{ picture.url }}" class="image-form hidden" id="img{{ loop.index }}" alt="">
                 </div>
             {% endfor %}
         </div>
