@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0839b79e-dfc2-49f8-950e-b35a3a7380f4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/NasaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/NasaController.php" afterDir="false" />
-    </list>
+    <list default="true" id="0839b79e-dfc2-49f8-950e-b35a3a7380f4" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +164,7 @@
       <workItem from="1576752912624" duration="1040000" />
       <workItem from="1576753961276" duration="7044000" />
       <workItem from="1576765456642" duration="21000" />
-      <workItem from="1576765478570" duration="16202000" />
+      <workItem from="1576765478570" duration="16924000" />
     </task>
     <servers />
   </component>
