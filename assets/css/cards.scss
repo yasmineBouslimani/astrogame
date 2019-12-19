@@ -1,0 +1,45 @@
+body {
+  display : flex;
+  justify-content: center;
+  background-image: url('https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif');
+
+}
+
+.swal-modal {
+  font-family: "Bungee", cursive;
+  img {
+    width: 400px;
+    height: 350px;
+  }
+}
+
+.image-form {
+  width: 250px;
+  height: 250px;
+}
+.cards {
+  margin-top : 100px;
+  width : 1250px;
+}
+.row {
+  margin : 0;
+}
+
+.display {
+  display:block !important;
+}
+.carte {
+  width: 250px;
+  height: 250px;
+  background-color: #e8c380;
+  border: 2px solid black;
+  box-shadow: 4px 2px 5px black;
+  cursor: pointer;
+  margin :auto;
+}
+.hidden {
+  display: none;
+}
+.display {
+  display:block !important;
+}

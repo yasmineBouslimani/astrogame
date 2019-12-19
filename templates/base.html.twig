@@ -6,13 +6,23 @@
         {% block stylesheets %}
             {{ encore_entry_link_tags('app') }}
         {% endblock %}
-
     </head>
-    <body>
+
+
+
+
+    {% block body %}
+    {% endblock %}
+
+
+
+
 
     <div class="cards">
-        {% block body %}{% endblock %}
+        {% block content %}{% endblock %}
     </div>
+
+
         {% block javascripts %}
             <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
             <script>
@@ -67,5 +77,5 @@
             {{ encore_entry_script_tags('app') }}
 
         {% endblock %}
-    </body>
+
 </html>

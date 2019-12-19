@@ -1,7 +1,6 @@
-{% block stylesheets %}
-    {{ encore_entry_link_tags('app') }}
-{% endblock %}
-<div class="container demo">
+{% extends 'base.html.twig' %}
+{% block body %}
+<div class="containo">
     <div class="content">
         <div id="large-header" class="large-header">
             <canvas id="demo-canvas"></canvas>
@@ -10,14 +9,10 @@
 	                <span class="sign__word">ASTROGAME</span>
                 </div>
             </h1>
-            {% block body %}{% endblock %}
-
         </div>
     </div>
 </div>
 <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/TweenLite.min.js"></script>
 <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/EasePack.min.js"></script>
 <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo.js"></script>
-{% block javascripts %}
-    {{ encore_entry_script_tags('app') }}
 {% endblock %}
