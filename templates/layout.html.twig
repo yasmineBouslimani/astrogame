@@ -2,18 +2,19 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>{% block title %}Welcome!{% endblock %}</title>
+    <title>{% block title %}{% endblock %}</title>
     {% block stylesheets %}
         {{ encore_entry_link_tags('app') }}
     {% endblock %}
 </head>
-<body>
+<body style="background-image: url('https://www.nasa.gov/sites/all/themes/custom/nasatwo/images/starfield-banner.jpg');">
+
 {% block content %}{% endblock %}
+
 {% block javascripts %}
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script>
         const cards = document.getElementsByClassName('carte');
-
         let previousUrl = '';
         let previousImg = '';
         let count       = 0;
@@ -50,21 +51,16 @@
                             icon: "https://66.media.tumblr.com/1868438b1353539c8a6ce2fbff2ba042/tumblr_pme7jgDPcO1t403jy_540.gif",
                             button: "Aww yiss!",
                         })
-
                     }
                 }
-
                 previousUrl = img.getAttribute('src');
                 previousImg = img;
             });
         }
     </script>
-
     {{ encore_entry_script_tags('app') }}
-
 {% endblock %}
-
-</body>
+    </body>
 </html>
 
 
