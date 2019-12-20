@@ -24,55 +24,6 @@
 
 
         {% block javascripts %}
-            <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-            <script>
-                const cards = document.getElementsByClassName('carte');
-
-                let previousUrl = '';
-                let previousImg = '';
-                let count       = 0;
-                let nbClick     = 0;
-
-                for (let i = 0 ; i < cards.length ; i++) {
-                    cards[i].addEventListener('click', event => {
-                        nbClick++;
-                        let imageId = event.target.getAttribute('data-id');
-                        document.getElementById(imageId).classList.toggle('hidden');
-                        let img = event.target.children[0]
-                        let url = img.getAttribute('src');
-                        if (previousUrl != '') {
-                            if (url === previousUrl) {
-                                img.classList.add('display');
-                                previousImg.classList.add('display');
-                                count++
-                            } else {
-                                previousImg.classList.add('hidden');
-                            }
-                        }
-                        if (count === cards.length /2) {
-                            if (nbClick > 20) {
-                                swal({
-                                    title: "Good job !",
-                                    text: "You win with " + nbClick + " clicks !",
-                                    icon: "https://murhafsousli.github.io/memory/assets/img/y1.jpg",
-                                    button: "Aww yiss!",
-                                })
-                            } else {
-                                swal({
-                                    title: "Good job !",
-                                    text: "You win with " + nbClick + " clicks !",
-                                    icon: "https://murhafsousli.github.io/memory/assets/img/y2.jpg",
-                                    button: "Aww yiss!",
-                                })
-
-                        }
-                        }
-
-                        previousUrl = img.getAttribute('src');
-                        previousImg = img;
-                    });
-                }
-            </script>
 
             {{ encore_entry_script_tags('app') }}
 
