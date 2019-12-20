@@ -7,7 +7,7 @@
         {{ encore_entry_link_tags('app') }}
     {% endblock %}
 </head>
-<body>
+<body id="zone">
 {% block content %}{% endblock %}
 {% block javascripts %}
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
@@ -18,10 +18,16 @@
         let previousImg = '';
         let count       = 0;
         let nbClick     = 0;
+        const scoreElement = document.getElementById("score");
+        const bodyElement = document.getElementById("zone");
+        bodyElement.addEventListener('click', function (event) {
+            nbClick++;
+            scoreElement.innerText = nbClick ;
 
+        });
         for (let i = 0 ; i < cards.length ; i++) {
             cards[i].addEventListener('click', event => {
-                nbClick++;
+
                 let imageId = event.target.getAttribute('data-id');
                 document.getElementById(imageId).classList.toggle('hidden');
                 let img = event.target.children[0]
@@ -54,6 +60,7 @@
                     }
                 }
 
+                scoreElement.innerText = nbClick ;
                 previousUrl = img.getAttribute('src');
                 previousImg = img;
             });

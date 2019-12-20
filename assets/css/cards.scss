@@ -1,7 +1,7 @@
 body {
-  display : flex;
+
   justify-content: center;
-  background-image: url('https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif');
+  background-image: url('https://www.nasa.gov/sites/all/themes/custom/nasatwo/images/starfield-banner.jpg');
 
 }
 
@@ -31,7 +31,8 @@ body {
 .carte {
   width: 250px;
   height: 250px;
-  background-color: #e8c380;
+  background-image: url("http://assets.stickpng.com/thumbs/58429400a6515b1e0ad75acc.png");
+  background-size: cover;
   border: 2px solid black;
   box-shadow: 4px 2px 5px black;
   cursor: pointer;

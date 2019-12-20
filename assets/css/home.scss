@@ -2,7 +2,15 @@ body {
   margin: 0;
   height: 100vh;
   background-color: black;
-
+}
+#score{
+  font-size: 5rem;
+  color: #b21f2d;
+  height: 100px;
+  width: 150px;
+  background-color: whitesmoke;
+  border-radius: 50%;
+  text-align: center;
 }
 .neon {
   position: relative;
