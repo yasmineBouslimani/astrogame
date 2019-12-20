@@ -2,18 +2,19 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>{% block title %}Welcome!{% endblock %}</title>
+    <title>{% block title %}{% endblock %}</title>
     {% block stylesheets %}
         {{ encore_entry_link_tags('app') }}
     {% endblock %}
 </head>
-<body>
+<body style="background-image: url('https://www.nasa.gov/sites/all/themes/custom/nasatwo/images/starfield-banner.jpg');">
+
 {% block content %}{% endblock %}
+
 {% block javascripts %}
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script>
         const cards = document.getElementsByClassName('carte');
-
         let previousUrl = '';
         let previousImg = '';
         let count       = 0;
@@ -38,7 +39,7 @@
                 if (count === cards.length /2) {
                     if (nbClick > 20) {
                         swal({
-                            title: "Good job !",
+                            title: "Meeeh !",
                             text: "You win with " + nbClick + " clicks !",
                             icon: "https://murhafsousli.github.io/memory/assets/img/y1.jpg",
                             button: "Aww yiss!",
@@ -50,21 +51,16 @@
                             icon: "https://murhafsousli.github.io/memory/assets/img/y2.jpg",
                             button: "Aww yiss!",
                         })
-
                     }
                 }
-
                 previousUrl = img.getAttribute('src');
                 previousImg = img;
             });
         }
     </script>
-
     {{ encore_entry_script_tags('app') }}
-
 {% endblock %}
-
-</body>
+    </body>
 </html>
 
 

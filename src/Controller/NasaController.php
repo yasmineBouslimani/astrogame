@@ -15,7 +15,7 @@ class NasaController extends AbstractController
     public function index(NasaService $nasaService)
     {
         $pictures = [];
-        $difficulty = 1;
+        $difficulty = 3;
 
         for ($i=0; $i<$difficulty; $i++) {
            $picture = $nasaService->getPicture();

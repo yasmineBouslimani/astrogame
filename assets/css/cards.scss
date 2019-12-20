@@ -1,9 +1,4 @@
-body {
-  display : flex;
-  justify-content: center;
-  background-image: url('https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif');
 
-}
 
 .swal-modal {
   font-family: "Bungee", cursive;
@@ -12,7 +7,6 @@ body {
     height: 350px;
   }
 }
-
 .image-form {
   width: 250px;
   height: 250px;
@@ -23,8 +17,8 @@ body {
 }
 .row {
   margin : 0;
+  width: 750px;
 }
-
 .display {
   display:block !important;
 }
