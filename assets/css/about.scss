@@ -1,4 +1,6 @@
+
 .signword {
+  font-family: "Bungee", cursive;
   margin-top : -533px;
   min-height: 100%;
   display: flex;
@@ -12,4 +14,54 @@
   animation: neon .08s ease-in-out infinite alternate;
 }
 
+.text-about {
+  z-index: 30;
+  position: absolute;
+  margin-top: 290px;
+  color: white;
+  width: 500px;
+  margin-left: 525px;
+}
 
+.presentation p {
+  font-size: 18px;
+}
+.social {
+  padding-left: 55px;
+}
+
+
+.social img {
+    width: 60px;
+  margin: 22px;
+}
+
+.social p {
+  font-size: 13px;
+  padding-left: 307px;
+  margin-top: -16px;
+  font-family: "Bungee", cursive;
+  text-transform: none;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+    color: black;
+  }
+}
+footer {
+padding: 40px 20px;
+text-align: center;
+color: white;
+  background-color: black;
+}
+footer p a {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+  text-transform: none;
+  text-decoration: none;
+  color:white;
+}
+
+footer img {
+  width: 60px;
+}
