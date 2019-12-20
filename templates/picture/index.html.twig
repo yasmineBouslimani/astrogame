@@ -1,7 +1,13 @@
 {% extends 'layout.html.twig' %}
 {% block content %}
+
     {% include 'scorebar.html.twig' %}
-    <div  class="d-flex justify-content-center">
+
+
+
+<div class="cards">
+    <div class="d-flex justify-content-center">
+
         <div class="row">
             {% for picture in pictures %}
                 <div class="box carte" data-id="img{{ loop.index }}">
@@ -10,4 +16,7 @@
             {% endfor %}
         </div>
     </div>
+</div>
+    {% include 'navbar.html.twig' %}
+
 {% endblock %}

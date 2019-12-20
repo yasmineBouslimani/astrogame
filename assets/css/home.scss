@@ -1,8 +1,4 @@
-body {
-  margin: 0;
-  height: 100vh;
-  background-color: black;
-}
+
 #score{
   font-size: 5rem;
   color: #b21f2d;
@@ -12,6 +8,7 @@ body {
   border-radius: 50%;
   text-align: center;
 }
+
 .neon {
   position: relative;
   overflow: hidden;

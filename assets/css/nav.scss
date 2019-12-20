@@ -1,0 +1,52 @@
+.new-game {
+  width: 125px;
+  height: 125px;
+  background-color: white;
+  border-radius: 50%;
+  display: block;
+  text-align: center;
+  padding-top: 18px;
+  box-shadow: 0 5px 50px #fff2ba;
+  position : absolute;
+  bottom: 0px;
+  margin-right: 700px;
+  z-index: 20;
+}
+  a {
+    font-family: "Bungee", cursive;
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+
+    &:hover {
+      text-decoration: none;
+      color : black;
+    }
+  }
+
+.about {
+  width: 120px;
+  height: 120px;
+  background-color: #A23514;
+  border-radius: 50%;
+  display: block;
+  text-align: center;
+  padding-top: 35px;
+  box-shadow: 0 5px 75px red;
+  position : absolute;
+  bottom: 0px;
+  margin-left: 700px;
+  z-index: 20;
+}
+a {
+  font-family: "Bungee", cursive;
+  color: black;
+  text-decoration: none;
+  font-size: 30px;
+
+  &:hover {
+    text-decoration: none;
+    color : black;
+  }
+}
+
