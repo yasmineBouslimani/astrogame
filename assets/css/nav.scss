@@ -1,15 +1,16 @@
 .new-game {
-  width: 125px;
-  height: 90px;
+  width: 120px;
+  height: 120px;
   background-color: white;
-  border-radius: 120px 120px 0 0;
+  border-radius: 120px 120px 120px 120px;
   display: block;
   text-align: center;
-  padding-top: 45px;
+  padding-top: 40px;
   box-shadow: 0 5px 50px #fff2ba;
   position: absolute;
   bottom: 0px;
-  margin-right: 700px;
+  margin-right: 608px;
+  margin-bottom: 15px;
   z-index: 20;
 
   a {
@@ -26,18 +27,18 @@
 }
 
 .about {
-  width: 125px;
-  height: 90px;
+  width: 120px;
+  height: 120px;
   background-color: #C6E2FF;
-  border-radius: 120px 120px 0 0;
-  background-color: white;
+  border-radius: 120px 120px 120px 120px;
   display: block;
   text-align: center;
-  padding-top: 45px;
+  padding-top: 40px;
   box-shadow: 0 5px 75px blue;
   position: absolute;
   bottom: 0px;
   margin-left: 700px;
+  margin-bottom: 15px;
   z-index: 20;
 
   a {
@@ -52,3 +53,4 @@
     }
   }
 }
+

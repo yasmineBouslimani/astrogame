@@ -2,20 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0839b79e-dfc2-49f8-950e-b35a3a7380f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/css/navHaut.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/navHaut.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/about.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/cards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/cards.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/home.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/nav.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/about/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/about/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/score.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/score.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/github.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/index.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/paperplane.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/NasaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/NasaController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/layout.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/navbar.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/navbar.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/picture/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/picture/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/scorebar.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/scorebar.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -186,6 +188,9 @@
       <workItem from="1576752912624" duration="1040000" />
       <workItem from="1576753961276" duration="7044000" />
       <workItem from="1576808104809" duration="2106000" />
+      <workItem from="1576838901156" duration="1971000" />
+      <workItem from="1576919868340" duration="2163000" />
+      <workItem from="1576922050320" duration="723000" />
     </task>
     <servers />
   </component>

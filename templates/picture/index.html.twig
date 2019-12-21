@@ -2,6 +2,10 @@
 {% block content %}
     {% include 'scorebar.html.twig' %}
 {% include 'navHaut.html.twig' %}
+<div class="d-flex justify-content-center">
+    <div class="scoreboard" >
+        <h2 id="score"> 0 </h2>
+    </div>
 <div class="cards">
     <div class="d-flex justify-content-center">
         <div class="row">
@@ -14,6 +18,7 @@
             {% endfor %}
         </div>
     </div>
+</div>
 </div>
     {% include 'navbar.html.twig' %}
 {% endblock %}

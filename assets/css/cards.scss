@@ -19,23 +19,27 @@
 }
 
 .cards {
-  margin: auto;
-  padding-top: 74px;
+
+  padding-top: 123px;
   width: 1250px;
 }
 
-.row {
-  margin: 0;
-  width: 100%;
-}
+
+  .row {
+    margin: 0;
+    width: 100%;
+    padding-left: 70px;
+    max-height: 420px;
+  }
+
 
 .display {
   display: block !important;
 }
 
 .carte {
-  width: 250px;
-  height: 250px;
+  width: 170px;
+  height: 170px;
   background-image: url("http://assets.stickpng.com/thumbs/58429400a6515b1e0ad75acc.png");
   background-size: cover;
   border: 2px solid black;
@@ -55,5 +59,5 @@
 
 .front-inner {
   margin: 15px;
-  background: linear-gradient(45deg, #ce0996 0%, rgba(206, 9, 150, 0) 70%), linear-gradient(135deg, #e74804 10%, rgba(231, 72, 4, 0) 80%), linear-gradient(225deg, #e6af0a 10%, rgba(230, 175, 10, 0) 80%), linear-gradient(315deg, #27fe01 100%, rgba(39, 254, 1, 0) 70%);
+  background: linear-gradient(45deg, red 0%, rgba(206, 9, 150, 0) 70%), linear-gradient(135deg, black 10%, rgba(231, 72, 4, 0) 80%), linear-gradient(225deg, blue 10%, rgba(230, 175, 10, 0) 80%), linear-gradient(315deg, blue 100%, rgba(39, 254, 1, 0) 70%);
 }

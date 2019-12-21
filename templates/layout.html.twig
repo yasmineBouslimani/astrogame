@@ -27,8 +27,11 @@
         const scoreElement = document.getElementById("score");
         const bodyElement = document.getElementById("zone");
         bodyElement.addEventListener('click', function (event) {
-            nbClick++;
-            scoreElement.innerText = nbClick ;
+            if (count < cards.length /2) {
+                nbClick++;
+                scoreElement.innerText = nbClick ;
+            }
+
 
         });
         for (let i = 0 ; i < cards.length ; i++) {

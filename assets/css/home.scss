@@ -1,4 +1,3 @@
-
 #score{
   font-size: 5rem;
   color: #b21f2d;
@@ -135,3 +134,34 @@
             0 0 60px rgba(30,132,242,1);
   }
 }
+
+.neonFull {
+   font-family: "Bungee", cursive;
+  border: none;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  text-align: center;
+  line-height: 1;
+  color: #C6E2FF;
+  animation: neon .08s ease-in-out infinite alternate;
+  box-shadow:
+          0 1px 2px #C6E2FF,
+          2px 1px 4px #C6E2FF,
+          2px 4px 3px #C6E2FF,
+          0 0 7px 2px #C6E2FF,
+          inset 0 1px 2px #C6E2FF,
+          inset 2px 1px 4px #C6E2FF,
+          inset 2px 4px 3px #C6E2FF,
+          inset 0 0 7px 2px #C6E2FF;
+
+}
+
+
+
+
+
+
