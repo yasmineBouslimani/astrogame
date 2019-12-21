@@ -2,7 +2,7 @@
 
 During the Wild Code School Hackaton of December 2019, coders were challenge to build a web application around space subject, and NASA free and open data.
 
-As part as the challenge, we experimenting NASA Open API - https://api.nasa.gov/
+As part of the challenge, we experimenting NASA Open API - https://api.nasa.gov/
 
 
 Space inspired us collaboration, creativity and challenge :
