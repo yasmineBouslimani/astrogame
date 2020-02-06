@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0839b79e-dfc2-49f8-950e-b35a3a7380f4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -140,8 +141,9 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../NEWDEAL/bordeaux-0919-php-newdeal" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.PHP" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -176,6 +178,16 @@
       <workItem from="1576838901156" duration="1971000" />
       <workItem from="1576919868340" duration="2163000" />
       <workItem from="1576922050320" duration="1403000" />
+      <workItem from="1576925066084" duration="732000" />
+      <workItem from="1577175261105" duration="773000" />
+      <workItem from="1578650574941" duration="623000" />
+      <workItem from="1579684615619" duration="1740000" />
+      <workItem from="1580307143157" duration="614000" />
+      <workItem from="1580317206291" duration="615000" />
+      <workItem from="1580665486099" duration="230000" />
+      <workItem from="1580665778499" duration="85000" />
+      <workItem from="1580921079767" duration="2819000" />
+      <workItem from="1580983257019" duration="19000" />
     </task>
     <servers />
   </component>
